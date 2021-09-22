@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css styling</title>
+	<!-- border,hover,font style,pseudo selector,span tag-->
+	<style type="text/css">
+		#one{
+			background-color:lightpink;
+			float:rights;
+		}
+		#two{
+             background-color: lavender;
+             
+		}
+		#three{
+			background-color:lightskyblue;
+		}
+		.common{
+			height: 200px;
+			width: 300px;
+			border-width: 10px;
+			background-color: fuchsia;
+			border-style: solid;
+		}
+		p{
+			font-size: 20px;
+			font-family:cursive,sans-serif;
+			font-weight: bold;
+			font-style:italic ;
+		}
+		a{
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="one" class="common">
+		<p>this is the first paragraph of this div and <span style="text-decoration:underline;">what else you required</span></p>
+		<a href="www.google.com">link to google</a>
+	</div>
+<div id="two" class="common">
+	<p>this is second paragraph of this div</p>
+</div>
+<div id="three" class="common"><p>
+	this is third paragraph of this division
+</p></div>
+</body>
+</html>
