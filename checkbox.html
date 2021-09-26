@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,4 +29,36 @@
 	</form>
 
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+<script type="text/javascript" language="JavaScript">
+	function validateform(form) {
+		ErrorText="";
+		if((form.gender[0].checked==false)&&(form.gender[1].checked==false))
+		{
+			alert("please choose your gender:male or female");
+			return false;
+		}
+		if(ErrorText="")
+		{
+			form.submit();
+		}
+	}
+	</script>
+	</head>
+<body>
+	<form>
+		Your gender:<input type="radio" name="gender" value="male">Male
+		<input type="radio" name="gender" value="female">Female
+		<input type="button" onclick="validateform(form)" value="submit">
+		<input type="reset" value="reset">
+	</form>
+
+</body>
+>>>>>>> 33d2ac07561f9e7c5b40e5a5e609b79b36895dc2
 </html>

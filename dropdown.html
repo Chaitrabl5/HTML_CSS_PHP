@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,4 +26,33 @@
 }
 </script>
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<form>
+	<select id="myselect">
+		<option id="apple">Apple</option>
+		<option id="orange">orange</option>
+
+<option id="pineapple">pineapple</option>
+<option id="banana">banana</option>
+
+	</select>
+</form>
+<p>click the button to display the text of the option element with id="orange" in the drop down list</p>
+<button onclick="myfunction()">try it</button>
+<p id="demo"></p>
+<script type="text/javascript">
+	function myfunction() {
+		var x=document.getElementById("myselect").options.namedItem("orange").text;
+	document.getElementById("demo").innerHTML=x;
+}
+</script>
+</body>
+>>>>>>> 33d2ac07561f9e7c5b40e5a5e609b79b36895dc2
 </html>

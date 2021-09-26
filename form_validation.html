@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,4 +27,34 @@
                 <input type="button" onclick="validateform()" value="register">
             </form>
         </body>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+    <script>
+        function validateform(){
+            var name=document.myform.name.value;
+            var password=document.myform.password.value;
+            if(name==null||name=="")
+            {
+                alert("Name can't be blank"); 
+                return false;
+            }
+            else if(password.length<6||pasword.length=="")
+            {
+                alert("Password must be at least 6 characters long");
+                return false;
+            }
+
+        }
+        </script>
+        </head> 
+        <body>
+            <form name="myform" >
+                Name:<input type="text" name="name"><br><br>
+                Password:<input type="password" name="password"><br/><br>
+                <input type="button" onclick="validateform()" value="register">
+            </form>
+        </body>
+>>>>>>> 33d2ac07561f9e7c5b40e5a5e609b79b36895dc2
         </html>

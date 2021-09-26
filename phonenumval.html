@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,4 +49,56 @@
 </form>
 
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+	<script type="text/javascript">
+		function validation(){
+			var a=document.form.phone.value;
+			if(a=="")
+			{
+				alert("please enter the contact number");
+				document.form.phone.focus();
+				return false;
+			}
+			else if(isNaN(a))
+			{
+				alert("enter the valid phone number(Like:044-42046569)");
+				document.form.phone.focus();
+				return false;
+			}
+			else if(a.length<10 || a.length>10)
+			{
+				alert("enter ten digit phone number");
+			}
+		else{
+			return true;
+		}
+				
+			
+		}
+	</script>
+</head>
+<body>
+<form name="form" method="post" onsubmit="return validation()">
+	<tr>
+		<td>Phone number:</td>
+		<td>
+			<input type="text" name="phone">
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<input type="submit" name="sub" value="submit">
+		</td>
+	</tr>
+</form>
+
+</body>
+>>>>>>> 33d2ac07561f9e7c5b40e5a5e609b79b36895dc2
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,4 +27,34 @@
 	 <input type="submit" name="submit">
 </form>
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+
+<script type="text/javascript">
+	function validate() {
+		var num=document.myform.num.value;
+		if(isNaN(num))
+		{
+			document.getElementById("numloc").innerHTML="enter numeric value";
+			return false;
+		}
+		else{
+			return true;
+		}
+	}
+</script>
+</head>
+<body>
+<form name="myform" onsubmit="return validate()">
+	NUMBER:<input type="text" name="num">
+	 <span id="numloc"></span><br/>
+	 <input type="submit" name="submit">
+</form>
+</body>
+>>>>>>> 33d2ac07561f9e7c5b40e5a5e609b79b36895dc2
 </html>
