@@ -1,0 +1,30 @@
+HTML: Hypertext Markup Language
+internet :to transfer the data
+server : to process the request
+browser:to execute code
+HTTP protocol
+
+anchor tag-for liking page
+
+lists:
+ordered
+unordered
+
+table:
+th-table header
+tr-row
+td-data
+
+rowspan
+colspan
+align
+bgcolor
+
+forms:
+input tag
+select tag
+
+registration form creation
+
+
+
