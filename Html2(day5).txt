@@ -1,0 +1,88 @@
+Html:
+
+frames-we can split the window into the multiple pages
+frame tag is used in the head only
+
+frameset rows=...
+   frame
+   frame
+
+
+frameset cols=...
+   frame
+   frame
+
+div tag:it is used to divide the content in the paragraphs.
+ 
+<div>
+<p>
+</p>
+
+<p>
+</P>
+
+</div>
+
+Span tag:it is used to modify the small content in the p tag of div tag.
+
+<div>
+<p>
+<span>
+</span>
+</p>
+
+<p>
+</P>
+
+</div>
+
+
+semantic tags:to increase the readabilty. Helps developer to search and edit.
+header
+footer
+article
+navigation-href in anchor tag
+section
+
+In one section ther e acn be many articles 
+article is the description about the particular topic
+
+
+
+CSS:
+
+inline
+internal
+external
+
+inline : styling inside the body 
+
+internal: style is declared in the head an dits used in the body
+same style on the multiple tags.
+
+
+external: Style usage in the  different file pages.
+
+filename.css
+file.html
+in the head tag
+ link rel= "" type="" href=""
+
+css :
+font color,size, family
+bg color, image
+text-align
+padding
+border style
+margin
+
+
+
+
+
+
+
+
+
+
+
